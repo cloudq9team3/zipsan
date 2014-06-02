@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</head>
+<body>
+<div>CLICK ME!</div>
+<script>
+	$(document).ready(function(){
+		$('div').mouseover(function(){
+			console.log("mouseover");
+			$('div').click(function(){
+				console.log("click!");
+
+
+			})
+		})
+		
+	})
+</script>
+</body>
+</html>
+
